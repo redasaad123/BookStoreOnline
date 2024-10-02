@@ -1,0 +1,104 @@
+﻿@model Web.ViewModel.AddBooksViewModel
+
+@{
+    ViewData["Title"] = "Add Book";
+}
+<div class="container-sm d-flex justify-content-center mt-4 ">
+    <div class="col-10 Addbookform">
+        <h1 class="text-center">Add New Book</h1>
+        <div>
+            <form asp-controller="Manage" asp-action="Add" method="post" enctype="multipart/form-data">
+
+                <div class="form-group  mb-3 ">
+                    <label asp-for="NameBook" class="control-label ms-1">Name Book</label>
+                    <input asp-for="NameBook" class="form-control" aria-required="true" />
+                    <span asp-validation-for="NameBook" class="text-danger"></span>
+                </div>
+
+                <div class="form-group d-md-flex">
+                    <div class="form-group  col-md-6  pe-md-2 mb-3 ">
+                        <label asp-for="AuthorName" class="control-label ms-1 ">Author Name</label>
+                        <input asp-for="AuthorName" class="form-control " aria-required="true" />
+                        <span asp-validation-for="AuthorName" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group  col-md-6 ps-md-2 mb-3">
+                        <label asp-for="CategoryName" class="control-label ms-1">Category Name</label>
+                        <input asp-for="CategoryName" class="form-control " aria-required="true" />
+                        <span asp-validation-for="CategoryName" class="text-danger"></span>
+                    </div>
+
+                </div>
+
+                <div class="d-md-flex">
+                    <div class="form-group  col-md-6 pe-md-2 mb-3">
+                        <label asp-for="NumberOfPage" class="control-label ms-1"> Number Of Page</label>
+                        <input asp-for="NumberOfPage" class="form-control" aria-required="true" />
+                        <span asp-validation-for="NumberOfPage" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group  col-md-6 ps-md-2  mb-3">
+                        <label asp-for="releaseYears" class="control-label ms-1"> Release Years</label>
+                        <input asp-for="releaseYears" class="form-control" aria-required="true" />
+                        <span asp-validation-for="releaseYears" class="text-danger"></span>
+                    </div>
+
+                </div>
+
+
+                <div class="form-group  mb-3">
+                    <label asp-for="PhotoUrl" class="control-label   ">Photo</label>
+                    <input asp-for="PhotoUrl" type="file" class="form-control" />
+                    <span asp-validation-for="PhotoUrl" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="PdfUrl" class="control-label ">PDF</label>
+                    <input asp-for="PdfUrl" type="file" class="form-control" />
+                    <span asp-validation-for="PdfUrl" class="text-danger"></span>
+                </div>
+
+
+
+                <div class="d-md-flex">
+                    <div class="form-group  col-md-6 pe-md-2 mb-3">
+                        <label asp-for="Price" class="control-label ms-1">Price</label>
+                        <input asp-for="Price" class="form-control" aria-required="true" />
+                        <span asp-validation-for="Price" class="text-danger"></span>
+                    </div>
+
+                    <div class="d-md-flex col-md-6 ps-md-2 mt-4 mb-3">
+                        <div class="form-check mb-3 me-3">
+                            <input type="checkbox" class="form-check-input" asp-for="offer" data-bs-toggle="collapse" data-bs-target="#collapseOffer" aria-expanded="false" aria-controls="collapseOffer" />
+                            <label class="form-check-label" asp-for="offer">Offer</label>
+                        </div>
+
+
+                        <div class="collapse  " id="collapseOffer">
+                            <div class="card card-body pricecard">
+                                <div class="form-group  ">
+                                    <label asp-for="Discount" class="control-label ms-1 ">Discount</label>
+                                    <input asp-for="Discount" class="form-control "  />
+                                    <span asp-validation-for="Discount" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-12  ">
+                    <label asp-for="Description" class="control-label ">Description</label>
+                    <textarea class="form-control " asp-for="Description" name="Description" rows="6"></textarea>
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+
+                <button class="btn btn-primary w-100 mt-4 " type="submit">Add Book</button>
+            </form>
+        </div>
+
+        <div class="mt-2">
+            <a asp-controller="Home" asp-action="Index" class="">Back to Home</a>
+        </div>
+    </div>
+
+</div>

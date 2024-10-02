@@ -1,0 +1,60 @@
+﻿@model IEnumerable<Web.ViewModel.ItemBook>
+@{
+    ViewData["Title"] = "manage Book";
+}
+<form asp-controller="Manage" asp-action="BooksToUpdateOrDelete"  class=" ManageformSearch  d-flex  align-content-center col-12 col-xl-10 ms-xl-5 mt-5 mb-5 ">
+    <div class="input-group Search container align-items-center w-50  ">
+        <input id="txtSearch" type="text" name="term" class="form-control Searchinput">
+        <button class="btn btn-success text-black submit " type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+    </div>
+</form>
+
+
+<div class="container-sm mb-5">
+    <div class="row justify-content-xxl-start justify-content-center">
+        @{
+            foreach (var item in Model)
+            {
+                var offer = (int)((int)item.Price * Convert.ToDouble(item.Discount));
+                var priceBook = (int)((int)item.Price - offer);
+                <div class="card book me-3 col-xxl-2 col-xl-3 col-md-4 mt-3 col-sm-5 col-8  p-0">
+                    <a class="head" asp-area="" asp-controller="Home" asp-action="Details" asp-route-Id="@item.Id"> <img src="~/img.html/@item.PhotoUrl" alt="" class="img-fluid card-img-top" /></a>
+
+                    <div class="card-body ">
+                        @if (item.IsOffer == true)
+                        {
+                            <div class="d-flex justify-content-around  ">
+                                <p class="card-text mb-0 ">@priceBook ج.م </p>
+                                <p><del class="card-text mb-0">@item.Price  </del>ج.م </p>
+
+                            </div>
+                        }
+                        else
+                        {
+                            <p class="card-text  container-fluid text-center">@item.Price ج.م</p>
+                        }
+
+                        <div class="pt-2 ">
+
+
+                            <a class="btn btn-success  w-100 " asp-controller="Manage" asp-action="Update" asp-route-id="@item.Id"> Update  </a>
+                            <a class="btn btn-danger w-100 mt-2 js-removeBook" href="javascript:;" data-id="@item.Id"> Remove </a>
+                            
+
+                        </div>
+                    </div>
+                </div>
+
+            }
+
+        }
+
+    </div>
+
+</div>
+
+
+
+
+
+

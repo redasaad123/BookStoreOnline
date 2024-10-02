@@ -1,0 +1,95 @@
+﻿@model Web.ViewModel.ItemBook
+
+@{
+    ViewData["Title"] = Model.NameBook;
+
+    var offer = (int)((int)Model.Price * Convert.ToDouble(Model.Discount));
+    var priceBook = (int)((int)Model.Price - offer);
+
+}
+
+
+<div class="container mt-5 ">
+    <div class="d-flex d-sm-block justify-content-center ">
+        <div class=" d-sm-flex justify-content-sm-around col-9 col-sm-12   " dir="rtl">
+            <div class="col-sm-7 col-md-5  col-11 d-flex justify-content-center p-xl-3 " dir="ltr">
+                <div class="col-lg-9 col-12 p-xl-3">
+                    <img src="~/img.html/@Model.PhotoUrl" class=" w-75 " alt="@Model.NameBook" />
+                    <div class="buttonBookInDetail">
+                        <partial name="../partailView/_ButtonAndBookMark.cshtml" model="Model" />
+                    </div>
+                    
+
+                </div>
+            </div>
+            <div class="col-sm-5 col-11 mt-5" dir="ltr">
+                <p class="nameBook mb-4">@Model.NameBook</p>
+                <p class="p-Book  "><span class="text-black-50 me-2 ">Category : </span> @Model.CategoryName</p>
+                <p class="p-Book p-Author"> <span class="text-black-50 me-2">Author  : </span><a asp-controller="Authors" asp-action="GetBooksToAuthor" asp-route-id="@Model.AuthorId">@Model.AuthorName</a></p>
+                @{
+                    if (Model.IsOffer == true)
+                    {
+                        <div class="d-flex  ">
+                            <span class="text-black-50 ">Price : </span>
+                            <p class=" mb-0 d-inline p-Book ms-3 me-4 "> @priceBook ج.م </p>
+                            <p><del class=" text-black-50 mb-0 d-inline p-Book"> @Model.Price  </del>ج.م </p>
+
+                        </div>
+                    }
+                    else
+                    {
+                        <p class="card-text  p-Book"><span class="text-black-50 me-2">Price : </span> @Model.Price ج.م </p>
+                    }
+                }
+
+
+                <p class="p-Book"><span class="text-black-50 me-2">Pages : </span> @Model.NumberOfPage</p>
+                <p class="p-Book"><span class="text-black-50 me-2">Release Year : </span> @Model.releaseYears</p>
+            </div>
+
+        </div>
+    </div>
+    <div class="class= mt-5 mb-5 p-5 p-sm-0">
+        <div class="container text-center mt-5   bookmarkstyle">
+            <p class=" pb-2">About the book</p>
+            <hr class="container text-center " />
+            <div class="bookmark container ">
+                <div class="">
+                    <i class="fa-regular fa-bookmark"></i>
+                </div>
+            </div>
+
+        </div>
+        <div class="Description">
+            <p>@Model.Description</p>
+        </div>
+    </div>
+
+
+    <div>
+        <div class=" ChoseForYou mt-5 ">
+            <div class="container text-center mb-2  bookmarkstyle">
+                <p class=" pb-2"> For You</p>
+                <hr class="container text-center " />
+                <div class="bookmark container ">
+                    <div class="">
+                        <i class="fa-regular fa-bookmark"></i>
+                    </div>
+                </div>
+
+            </div>
+            <partial name="..\partailView\_BookWithCarousel.cshtml" model="Model.Books" />
+
+
+
+        </div>
+
+
+
+
+    </div>
+
+
+
+
+</div>

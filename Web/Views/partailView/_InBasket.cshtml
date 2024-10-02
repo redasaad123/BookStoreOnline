@@ -1,0 +1,11 @@
+﻿
+<a class="btn btn-danger w-75 mt-3 js-removeInBasket" href="javascript:;" data-id="@Model.Id"> Remove </a>
+
+@if (Model.IsClickedInBookMark == true)
+{
+    <span class="SpanBook js-removeInBooMarkOutMarkPage clicked " title="Save" href="javascript:;" data-id="@Model.Id"><i class="fa-solid fa-bookmark"></i></span>
+}
+else
+{
+    <span class="SpanBook js-addInBookMark" title="Save" href="javascript:;" data-id="@Model.Id"><i class="fa-solid fa-bookmark"></i></span>
+}

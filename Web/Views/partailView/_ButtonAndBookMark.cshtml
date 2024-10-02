@@ -1,0 +1,39 @@
+﻿
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<AppUsers> SignInManager
+
+
+@if (SignInManager.IsSignedIn(User))
+{
+    if (Model.IsClickedInBasket == true)
+    {
+        <a class="btn btn-primary w-75 mt-3 Added " > Added </a>
+
+    }
+    else
+    {
+        <a class="btn btn-primary w-75 mt-3 js-PostInBasket " href="javascript:;" data-id="@Model.Id">Add to Basket</a>
+    }
+
+    if (Model.IsClickedInBookMark == true)
+    {
+        <span class="SpanBook  js-removeInBooMarkOutMarkPage clicked " href="javascript:;" data-id="@Model.Id" title="Save"><i class="fa-solid fa-bookmark"></i></span>
+    }
+    else
+    {
+        <span class="SpanBook  js-addInBookMark" href="javascript:;" data-id="@Model.Id" title="Save"><i class="fa-solid fa-bookmark"></i></span>
+    }
+
+
+    
+}
+else
+{
+    <a class="btn btn-primary w-75 mt-3 " asp-controller="BasketBook" asp-action="Index"> Add to Basket</a>
+    <span class="SpanBook  " title="Save"><i class="fa-solid fa-bookmark"></i></span>
+
+}
+
+
+
+

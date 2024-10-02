@@ -1,0 +1,36 @@
+﻿@model IEnumerable<Web.ViewModel.AuthorsViewModel>
+
+
+@{
+    ViewData["Title"] = "Authors";
+}
+
+
+<div class="The latest mt-5">
+    <div class="container text-center mb-2  bookmarkstyle">
+        <p class=" pb-2"> Authors</p>
+        <hr class="container text-center " />
+        <div class="bookmark container ">
+            <div class="">
+                <i class="fa-regular fa-bookmark"></i>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="container-sm d-flex justify-content-center ">
+    <div class="row justify-content-center  ">
+        @{
+            foreach (var Auth in Model)
+            {
+
+                <div class="divAuthor col-xxl-2 col-xl-3 col-md-4 mt-3 col-sm-5 col-8 pt-2 m-2 ">
+                    <a asp-controller="Authors" asp-action="GetBooksToAuthor" asp-route-id="@Auth.AuthorId"><p>@Auth.AuthorName</p></a>
+                </div>
+
+            }
+        }
+    </div>
+
+</div>

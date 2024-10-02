@@ -1,0 +1,25 @@
+﻿@model Web.ViewModel.CategoryViwModel
+
+
+@{
+    ViewData["Title"] = "War";
+}
+
+
+
+<div class="The latest mt-5">
+    <div class="container text-center mb-2  bookmarkstyle">
+        <p class=" pb-2"> War</p>
+        <hr class="container text-center " />
+        <div class="bookmark container ">
+            <div class="">
+                <i class="fa-regular fa-bookmark"></i>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="container-sm">
+    <partial name="..\partailView\_BookWithOutCarousel.cshtml" model="Model.BookInCategories" />
+</div>

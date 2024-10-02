@@ -1,0 +1,83 @@
+﻿@model Web.ViewModel.MultipleModelView
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="">
+    <partial name="_MainImg"  />
+</div>
+
+<section id="Body" class="container">
+
+    <div class=" ChoseForYou mt-5 ">
+        <div class="container text-center mb-2  bookmarkstyle">
+            <p class=" pb-2"> Choose For You</p>
+            <hr class="container text-center " />
+            <div class="bookmark container ">
+                <div class="">
+                    <i class="fa-regular fa-bookmark"></i>
+                </div>
+            </div>
+            
+        </div>
+        @{
+            <partial name="..\partailView\_BookWithCarousel.cshtml" model="Model.Books" />
+        }
+
+
+    </div>
+    <div class="The latest mt-5">
+        <div class="container text-center mb-2  bookmarkstyle">
+            <p class=" pb-2"> The Latest</p>
+            <hr class="container text-center " />
+            <div class="bookmark container ">
+                <div class="">
+                    <i class="fa-regular fa-bookmark"></i>
+                </div>
+            </div>
+
+        </div>
+        @{
+            <partial name="..\partailView\_BookWithCarousel.cshtml" model="Model.mainBookWithDates" />
+        }
+        
+
+    </div>
+    <div class="bestSeller mt-4">
+        <div class="container text-center mb-1  bookmarkstyle">
+            <p class="mt-5 pb-2"> Best Seller</p>
+            <hr class="container text-center " />
+            <div class="bookmark container ">
+                <div class="">
+                    <i class="fa-regular fa-bookmark"></i>
+                </div>
+            </div>
+
+        </div>
+
+        @{
+            <partial name="..\partailView\_BookWithCarousel.cshtml" model="Model.MainBookWithOffer" />
+        }
+        
+    </div>
+
+
+    <div id="Contact" class="mt-5">
+        <div class="container text-center mb-2  bookmarkstyle mt-4">
+            <p class=" pb-2"> Contact Us</p>
+            <hr class="container text-center " />
+            <div class="bookmark container ">
+                <div class="">
+                    <i class="fa-regular fa-bookmark"></i>
+                </div>
+            </div>
+
+        </div>
+        <partial name="_ContactForm" model="Model.MessageViewModel"  />
+
+    </div>
+
+</section>
+
+

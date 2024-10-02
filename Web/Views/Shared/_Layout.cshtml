@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - BookStorOnline</title>
+   
+    <link href="~/css/navbar.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link href="~/css/addbookform.css" rel="stylesheet" />
+    <link href="~/css/UserPage.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link href="~/owlcarousel2/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/BookStorOnline.styles.css" asp-append-version="true" />
+  
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.0/themes/base/jquery-ui.css">
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md  p-0  navbar-light bg-white box-shadow  ">
+            <div class="container-fluid pe-md-2 pe-lg-0">
+               
+                <a class="navbar-brand col-lg-2  col-3 me-0 d-flex justify-content-center  " asp-area="" asp-controller="Home" asp-action="Index"><img src="~/img.html/Screenshot 2023-04-14 105902.jpg" alt="Logo" class="  col-10  col-sm-8 col-md-6  col-lg-7 col-xl-6 col-xxl-4     ms-sm-3  ms-3 ms-xl-3   " /></a>
+                <div class="col-4 col-sm-5 d-flex pe-2 pe-sm-0 justify-content-end d-md-none ">
+                    <button class="navbar-toggler col-4 col-sm-3 me-3  ps-2 " type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                </div>
+                
+                <div class="navbar-collapse collapse d-md-flex justify-content-center  col-lg-5 col-7 ">
+                    <ul class="navbar-nav  MainNav me-lg-5 pt-md-2 pt-lg-0">
+                        
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <li class="nav-item ms-3 ms-md-0 me-md-3  pt-lg-1   ">
+                                
+                            </li>
+
+                            <li class="nav-item me-md-3 ms-1 ms-md-0 mt-md-1 pt-lg-1  ">
+                                <div class="dropdown  ">
+                                    <button class="dropdown-toggle bg-white " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Manage
+                                    </button>
+                                    <ul class="dropdown-menu ">
+                                        <li><a class="dropdown-item" asp-area="" asp-controller="Manage" asp-action="Add"> Add</a></li>
+                                        <li><a class="dropdown-item" asp-controller="Manage" asp-action="BooksToUpdateOrDelete">Update Or Delete </a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                                
+                        }
+
+                        <li class="nav-item ms-3 ms-md-0 me-md-3  pt-lg-1   ">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index"> Home </a>
+                        </li>
+
+                        <li class="nav-item me-md-3 ms-1 ms-md-0 mt-md-1 pt-lg-1  ">
+                            <div class="dropdown  ">
+                                <button class="dropdown-toggle bg-white " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Categories
+                                </button>
+                                <ul class="dropdown-menu ">
+                                    <li>
+                                        <a class="dropdown-item" asp-controller="Categories" asp-action="GetBookInHistorical">
+                                            Historical fiction
+                                        </a>
+                                    </li>
+                                    <li><a class="dropdown-item" asp-controller="Categories" asp-action="GetBookInFantasy">Fantasy</a></li>
+                                    <li><a class="dropdown-item" asp-controller="Categories" asp-action="GetBookInScience">Science fiction</a></li>
+                                    <li><a class="dropdown-item" asp-controller="Categories" asp-action="GetBookInWar">War</a></li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="nav-item me-md-3 ms-3 ms-md-0 pt-lg-1  ">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Authors" asp-action="Index">Authors</a>
+                        </li>
+
+                        <li class="nav-item me-md-3 ms-3 ms-md-0 pt-lg-1  ">
+                            <a class="nav-link text-dark" href="#Contact"> Contact us</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+                
+                <div class=" col-3 col-sm-2 col-md-1 col-lg-2 col-xl-1 mt-3 d-flex justify-content-start  ">
+                    <ul class="d-flex ps-0 justify-content-md-between justify-content-around   justify-content-lg-end col-10 justify-content-xxl-start Shopping">
+                        <li class="nav-item col-4  me-xl-2   ">
+                            <a class="nav-link text-dark " asp-controller="BasketBook" asp-action="Index" title="Shopping"><i class="fa-sharp-duotone fa-solid fa-cart-shopping"></i></a>
+                        </li>
+                        <li class="nav-item col-4">
+                            <a class="nav-link  text-dark  " asp-area="" asp-controller="BookMark" asp-action="Index"> <i class="fa-regular fa-bookmark"></i></a>
+                        </li>
+                            
+                    </ul>
+                </div>
+
+                <div class=" col-2  navbar-nav">
+                    <partial name="_LoginPartial" />
+
+                </div>
+                
+                    
+            </div>
+        </nav>
+        
+    </header>
+
+    <div class="body">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2024 - BookStorOnline - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.5.min.js" type="text/javascript"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="~/lib/bootbox.js/bootbox.min.js"></script>
+    <script src="~/owlcarousel2/owl.carousel.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.14.0/jquery-ui.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

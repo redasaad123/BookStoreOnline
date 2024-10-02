@@ -1,0 +1,62 @@
+﻿@model IEnumerable<Web.ViewModel.BasketViewModel>
+
+@{
+    ViewData["Title"] = "Shopping";
+}
+
+
+<div class="The latest mt-5">
+    <div class="container text-center mb-2  bookmarkstyle">
+        <p class=" pb-2"> Basket</p>
+        <hr class="container text-center " />
+        <div class="bookmark container ">
+            <div class="">
+                <i class="fa-regular fa-bookmark"></i>
+            </div>
+        </div>
+
+      </div>
+</div>
+
+<div class="container-sm">
+    <div class=" row justify-content-md-start  justify-content-center">
+        @{
+            foreach (var item in Model)
+            {
+                var offer = (int)((int)item.Books.Price * Convert.ToDouble(item.Books.Discount));
+                var priceBook = (int)((int)item.Books.Price - offer);
+                <div class="card basketbook me-3  col-xxl-2 col-xl-3 col-md-4 mt-3 col-sm-5 col-8  p-0">
+                    <a class="head" asp-area="" asp-controller="Home" asp-action="Details" asp-route-Id="@item.Books.Id"> <img src="~/img.html/@item.Books.PhotoUrl" alt="" class="img-fluid card-img-top" /></a>
+
+                    <div class="card-body ">
+
+                        @if (item.Books.IsOffer == true)
+                        {
+                            <div class="d-flex justify-content-around  ">
+                                <p class="card-text mb-0 ">@priceBook ج.م </p>
+                                <p><del class="card-text mb-0">@item.Books.Price  </del>ج.م </p>
+
+                            </div>
+                        }
+                        else
+                        {
+                            <p class="card-text   container-fluid text-center">@item.Books.Price ج.م</p>
+                        }
+                        <div class="d-flex justify-content-around ">
+
+                            <partial name="../partailView/_InBasket.cshtml" model="item.Books" />
+
+                        </div>
+                    </div>
+                </div>
+
+            }
+
+        }
+
+    </div>
+
+
+</div>
+
+

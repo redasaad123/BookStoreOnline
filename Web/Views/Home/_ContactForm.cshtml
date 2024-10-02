@@ -1,0 +1,78 @@
+﻿@model Web.ViewModel.MessageViewModel
+
+
+<div class="row gy-4  mb-5 p-3 pt-0 justify-content-center ">
+
+    <div class="col-md-5 divmain m-md-4 p-md-3 p-2">
+        <div class="info-item d-flex align-items-center" >
+            <i class=" fa-solid fa-location-dot flex-shrink-0 col-3"></i>
+            <div>
+                <h3>Address</h3>
+                <p>A108 Adam Street, New York, NY 535022</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-5 divmain m-md-4 p-md-3 p-2">
+        <div class="info-item d-flex align-items-center" >
+            <i class=" icon fa-solid fa-phone flex-shrink-0 col-3"></i>
+            <div>
+                <h3>Call Us</h3>
+                <p>+20 1026014296</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-5 divmain m-md-4 p-md-3 p-2">
+        <div class="info-item d-flex align-items-center" >
+            <i class="icon fa-solid fa-envelope flex-shrink-0 col-3"></i>
+            <div>
+                <h3>Email Us</h3>
+                <p>BookStore@gmail.com</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-5 divmain m-md-4 p-md-3 p-2">
+        <div class="info-item d-flex align-items-center" >
+            <i class="icon fa-regular fa-clock flex-shrink-0 col-3"></i>
+            <div>
+                <h3>Opening Hours<br></h3>
+                <p><strong>Mon-Sat:</strong> 11AM - 23PM; <strong>Sunday:</strong> Closed</p>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<form asp-action="contact"  method="post">
+    <div class="row gy-4">
+
+        <div class="col-md-6 ">
+            <input asp-for="@Model.name" class="form-control InputContact" autocomplete="name" aria-required="true" placeholder="Your Name" />
+            
+            <span asp-validation-for="@Model.name" class="text-danger"></span>
+        </div>
+
+        <div class="col-md-6  ">
+            <input asp-for="@Model.email" class="form-control InputContact" autocomplete="Email" aria-required="true" placeholder="Your Email" />
+           
+            <span asp-validation-for="@Model.email" class="text-danger"></span>
+        </div>
+
+        <div class="col-md-12 ">
+            <input asp-for="@Model.subject" class="form-control InputContact" autocomplete="subject" aria-required="true" placeholder="Subject" />
+            <span asp-validation-for="@Model.subject" class="text-danger"></span>
+        </div>
+
+        <div class="col-md-12 ">
+            <textarea class="form-control textareaContact" asp-for="@Model.message" name="Message" rows="6" placeholder="Message" required=""></textarea>
+            <span asp-validation-for="@Model.message" class="text-danger"></span>
+        </div>
+
+        <div class="col-md-12 text-center btnContact">
+            <button type="submit" class="btn btn-success w-100">Send Message</button>
+        </div>
+
+    </div>
+</form>

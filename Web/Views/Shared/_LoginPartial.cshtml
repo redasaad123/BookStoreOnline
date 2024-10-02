@@ -1,0 +1,31 @@
+﻿@using Core.Entities
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<AppUsers> SignInManager
+@inject UserManager<AppUsers> UserManager
+
+<ul class="d-flex p-0 pt-3 justify-content-start ulLogin">
+    @if (SignInManager.IsSignedIn(User))
+    {
+        <li class="nav-item  Profil col-xl-5 col-4 col-md-auto me-xl-1 mt-2 ">
+            <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage"><i class="fa-duotone fa-solid fa-user"></i></a>
+        </li>
+        <li class="nav-item logout col-5 col-md-auto mt-2">
+            <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                <button type="submit" class="nav-link btn btn-link text-dark logout" title="Log Out"><i class="fa-solid fa-right-to-bracket"></i></button>
+            </form>
+        </li>
+    }
+    else
+    {
+        <li class="nav-item login d-none d-xl-inline pt-lg-1 me-lg-1 col-7 col-md-auto me-3 me-md-0 ps-3 pe-3 ">
+            <a class="nav-link text-dark " asp-area="Identity" asp-page="/Account/Login"> Log in </a>
+        </li>
+        <li class="nav-item Shopping d-xl-none pt-lg-1 me-lg-1 col-7 col-md-auto me-1 me-md-0  ">
+            <a class="nav-link text-dark " asp-area="Identity" asp-page="/Account/Login"> <i class="fa-duotone fa-solid fa-user"></i></a>
+        </li>
+
+        
+
+
+    }
+</ul>

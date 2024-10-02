@@ -1,0 +1,31 @@
+﻿<div class="owl-carousel owl-theme ">
+    @foreach (var item in Model)
+    {
+        var offer = (int)((int)item.Price * Convert.ToDouble(item.Discount));
+        var priceBook = (int)((int)item.Price - offer);
+        <div class="card">
+            <a class="head" asp-area="" asp-controller="Home" asp-action="Details" asp-route-Id="@item.Id"> <img src="~/img.html/@item.PhotoUrl" alt="" class="img-fluid card-img-top" /></a>
+
+            <div class="card-body  ">
+                @if (item.IsOffer == true)
+                {
+                    <div class="d-flex justify-content-around  ">
+                        <p class="card-text mb-0 ">@priceBook ج.م </p>
+                        <p><del class="card-text mb-0">@item.Price  </del>ج.م </p>
+
+                    </div>
+                }
+                else
+                {
+                    <p class="card-text  container-fluid text-center">@item.Price ج.م</p>
+                }
+                <div class="d-flex justify-content-around ">
+
+                    <partial name="_ButtonAndBookMark.cshtml" model="item" />
+
+                </div>
+            </div>
+        </div>
+
+    }
+</div>
