@@ -1,0 +1,312 @@
+:root {
+    --color: #82CA9C;
+    --colorhover: #339959;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.body {
+    min-height: 100vh !important;
+}
+
+
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    font-family: "Gill Sans", sans-serif;
+}
+
+hr {
+    width: 230px !important;
+}
+
+.bookmarkstyle p {
+    font-size: 30px;
+}
+
+.Search .submit {
+    height: 40px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.bookmarkstyle .bookmark {
+    position: relative;
+    transform: translateY(-30px);
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+    .bookmarkstyle .bookmark div {
+        font-size: 24px;
+        display: flex;
+        justify-content: center;
+        margin-top: 30%;
+    }
+
+.card {
+    box-shadow: 0px 1px 3px .1px #707070;
+    border: #707070 1.3px solid;
+}
+
+    .card .head:hover {
+        box-shadow: 6px 6px 10px 1px #707070;
+        transition: .3s;
+    }
+
+    .card .head {
+        transition: .3s;
+    }
+.buttonBookInDetail  {
+    display: flex;
+
+}
+    .buttonBookInDetail .SpanBook {
+        margin-left : 15px ;
+    }
+
+.SpanBook {
+    padding-top: 15px;
+    font-size: 25px;
+    margin-left: 10px;
+    color: var(--color);
+    cursor: pointer;
+    transition: .5s;
+}
+
+.card .SpanBook:hover {
+    color: var(--colorhover);
+    transition: .5s;
+}
+
+
+.clicked {
+    color: var(--colorhover);
+}
+
+
+.divmain {
+    box-shadow: 1px 1px 2px .1px var(--colorhover);
+    transition: .3s;
+}
+
+    .divmain i {
+        font-size: 28px;
+        width: 60px;
+        height: 60px;
+        margin-right: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        background-color: var(--colorhover);
+        color: white
+    }
+
+.InputContact {
+    height: 55px;
+    border: none !important;
+    box-shadow: 1px 1px 2px .1px var(--colorhover) !important;
+}
+
+.textareaContact {
+    border: none !important;
+    box-shadow: 1px 1px 2px .1px var(--colorhover) !important;
+}
+
+    .InputContact:focus, .textareaContact:focus {
+        border: none !important;
+        box-shadow: 1px 1px 6px .1px var(--colorhover) !important;
+    }
+
+.btnContact button {
+    height: 50px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+
+.DivLogIn {
+    height: 80vh;
+    align-items: center;
+}
+
+
+.mainDivLogIn {
+    height: 60vh;
+    box-shadow: 1px 1.5px 2px .5px #707070 !important;
+}
+
+.headlogin p {
+    margin-top: 10px;
+    height: 10vh;
+    font-size: 40px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.DivRegisterInlogIn p a {
+    font-size: 17px;
+}
+
+    .DivRegisterInlogIn p a:hover {
+        color: var(--colorhover)
+    }
+
+
+
+.DivRegister {
+    height: 110vh;
+    align-items: center;
+}
+
+.MainDivRegister {
+    box-shadow: 1px 1.5px 2px .5px #707070 !important;
+}
+
+
+.divAuthor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    box-shadow: 1px 1.5px 2px .5px #707070 !important;
+    transition: .3s;
+}
+
+    .divAuthor a:hover {
+        font-size: 20.5px;
+        transition: .2s;
+        color: var(--colorhover)
+    }
+
+
+.nameBook {
+    font-size: 38px;
+    font-family: cursive;
+}
+
+.p-Book {
+    font-size: 18px;
+}
+
+.p-Author a:hover {
+    color: var(--colorhover) !important;
+}
+
+.Description {
+    font-size: 20px;
+}
+
+.ui-menu-item .ui-menu-item-wrapper {
+    font-size: 19px !important;
+    border: none !important;
+    height: 100%;
+    background-color: white !important;
+    color : black !important ; 
+    margin-top:4px !important ;
+
+}
+    .ui-menu-item .ui-menu-item-wrapper:hover {
+        background-color: var(--color) !important;
+        color: white !important;
+    }
+.ui-autocomplete {
+    padding: 4px !important;
+}
+
+
+.Added,.Added:hover {
+    background-color: mediumblue !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-height: 768px ) {
+    .DivRegister {
+        height: 90vh;
+    }
+
+    .MainDivRegister {
+        padding-top: 0 !important;
+    }
+}
+
+
+
+
+
+@media (max-width: 768px ) {
+    .mainDivLogIn {
+        height: 50vh;
+    }
+
+    .ui-autocomplete {
+        width: 300px !important;
+    }
+
+    .Search .submit {
+        height: 35px !important;
+
+    }
+}
+
+@media (max-width: 500px ) {
+
+
+    .ui-autocomplete {
+        width: 250px !important;
+    }
+}
+
+
+@media (max-height: 696px ) {
+    .mainDivLogIn {
+        height: 70vh;
+    }
+}

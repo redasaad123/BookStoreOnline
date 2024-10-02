@@ -1,0 +1,42 @@
+:root {
+    --color: #82CA9C;
+    --colorhover: #339959;
+}
+
+
+.Addbookform {
+    box-shadow: 1px 1.5px 2px .5px #707070 !important;
+    padding: 50px ;
+}
+    .Addbookform h1 {
+        font-size: 35px;
+        font-weight: 800;
+        margin-bottom:40px;
+    }
+
+
+.pricecard{
+    width:300px;
+}
+
+
+
+
+@media (min-height: 768px ) {
+}
+
+
+
+@media (max-width: 768px ) {
+
+    .pricecard {
+        width: 200px ;
+    }
+
+    
+}
+
+
+@media (max-height: 696px ) {
+    
+}

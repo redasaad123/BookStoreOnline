@@ -1,0 +1,162 @@
+:root {
+    --color: #82CA9C;
+    --colorhover: #339959;
+}
+
+body {
+    overflow-x: hidden;
+    height:100vh;
+    
+}
+
+
+
+
+
+.MainNav li a, .dropdown-toggle {
+    font-size: 20px;
+    transition: .5s;
+}
+
+.dropdown-toggle {
+    border: none !important;
+    margin-top: 3px
+}
+
+    .MainNav li a:hover, .login a:hover, .dropdown-toggle:hover {
+        color: var(--colorhover) !important;
+        transition: .2s;
+    }
+
+.Shopping a i {
+    font-size: 25px;
+    transition: .5s;
+}
+
+    .Shopping a i:hover, .Profil a i:hover, .logout i:hover {
+        color: var(--colorhover) !important;
+        transition: .2s;
+    }
+
+.Profil a i, .logout i {
+    font-size: 22px;
+    transition: .5s;
+}
+
+    .Profil a i:hover, .logout i:hover {
+        color: var(--colorhover) !important;
+        transition: .2s;
+    }
+
+.Profil, .logout, .Shopping, .login {
+    list-style: none;
+}
+
+    .login a {
+        font-size: 18px;
+    }
+
+.login {
+    width: 100px;
+    border: 1px solid var(--color);
+    color: var(--color);
+    border-radius: 30px;
+    transition: .3s;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px
+}
+
+    .login:hover {
+        color: var(--colorhover);
+        border: 1px solid var(--colorhover);
+        transition: .3s;
+    }
+
+
+
+.header-image {
+    position: relative;
+    height: 70vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    overflow-x: hidden;
+    transition: .3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .header-image::before {
+        position: absolute;
+        content: "";
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        background: url("../img.html/books-bookstore-book-reading-159711.jpeg") no-repeat center center/cover;
+        z-index: -1;
+    }
+
+
+
+.form-control {
+    border: 2px var(--color) solid !important;
+    box-shadow: none !important;
+    font-size: 20px
+}
+
+.form-control:focus {
+    border: 2px var(--color) solid !important;
+    box-shadow: none !important
+}
+
+
+
+
+
+
+@media(max-width:953px) {
+    .header-image {
+        height: 50vh;
+        transition: .3s;
+    }
+}
+
+
+@media(max-width:768px) {
+
+    .header-image {
+        height: 40vh;
+        transition:.3s ;
+    }
+}
+
+@media(max-width:572px) {
+
+    .ulLogin{
+        justify-content : end ;
+
+    }
+}
+
+@media(max-width:572px) {
+
+    .ulLogin {
+        justify-content: end;
+    }
+}
+
+@media(max-width:414px) {
+
+    .Search{
+        width : 75% !important;
+    }
+    
+}
+
+
+
+
+
+

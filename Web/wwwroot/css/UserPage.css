@@ -1,0 +1,86 @@
+:root {
+    --color: #82CA9C;
+    --colorhover: #339959;
+}
+
+
+.pageuser{
+    height:80vh;
+    display:flex;
+    justify-content:center;
+    align-items:center
+
+}
+.usermange {
+    box-shadow: 1px 1.5px 2px .5px #707070 !important;
+    padding : 50px 0px;
+}
+
+    .usermange h3 {
+        font-size: 35px;
+        font-weight: 800;
+    }
+    .sidebar {
+        box-shadow: 1px 1.5px 2px .5px #707070 !important;
+        margin-right: 15px;
+        padding-top: 20px;
+    }
+
+.sidebar ul li a{
+    font-size:20px;
+    color:black;
+
+}
+.sidebar ul li a:hover {
+    color: white !important;
+    background-color: var(--colorhover) !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media (min-height: 768px ) {
+    }
+
+
+
+@media (max-width: 768px ) {
+    
+
+    
+}
+
+
+@media (max-height: 696px ) {
+    
+}
