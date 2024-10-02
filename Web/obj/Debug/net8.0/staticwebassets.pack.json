@@ -1,0 +1,413 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Web.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Web.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\Js\\site.js",
+      "PackagePath": "staticwebassets\\Js\\site.js"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\OwlCarousel2\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\OwlCarousel2\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\OwlCarousel2\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\OwlCarousel2\\owl.carousel.min.js"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\css\\AddBookForm.css",
+      "PackagePath": "staticwebassets\\css\\AddBookForm.css"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\css\\NavBar.css",
+      "PackagePath": "staticwebassets\\css\\NavBar.css"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\css\\UserPage.css",
+      "PackagePath": "staticwebassets\\css\\UserPage.css"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\img.html\\17ccb65a3f6364ca6221593c92a0058a.jpg",
+      "PackagePath": "staticwebassets\\img.html\\17ccb65a3f6364ca6221593c92a0058a.jpg"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\img.html\\2d2a6216ef177470f59069a96cbcbb6a.jpg",
+      "PackagePath": "staticwebassets\\img.html\\2d2a6216ef177470f59069a96cbcbb6a.jpg"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\img.html\\3981e145f058c6c6f1e5bf8073ce287d.jpg",
+      "PackagePath": "staticwebassets\\img.html\\3981e145f058c6c6f1e5bf8073ce287d.jpg"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\img.html\\6ae0f3a5d1b983176469399b32daf83a.jpg",
+      "PackagePath": "staticwebassets\\img.html\\6ae0f3a5d1b983176469399b32daf83a.jpg"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\img.html\\7adcf65b5fbe8899ce9be9cb1f4eea76.jpg",
+      "PackagePath": "staticwebassets\\img.html\\7adcf65b5fbe8899ce9be9cb1f4eea76.jpg"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\img.html\\7f77fc6c-c073-47e1-ace7-a4ad3263ff40.webp",
+      "PackagePath": "staticwebassets\\img.html\\7f77fc6c-c073-47e1-ace7-a4ad3263ff40.webp"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\img.html\\85a35f958ae2256ea80cae32e36f2456.jpg",
+      "PackagePath": "staticwebassets\\img.html\\85a35f958ae2256ea80cae32e36f2456.jpg"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\img.html\\9b88b7c17f496a61fc78505130af288e.jpg",
+      "PackagePath": "staticwebassets\\img.html\\9b88b7c17f496a61fc78505130af288e.jpg"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\img.html\\9f82dc27a26428bf35725e49bb2a9ef7.jpg",
+      "PackagePath": "staticwebassets\\img.html\\9f82dc27a26428bf35725e49bb2a9ef7.jpg"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\img.html\\Screenshot 2023-04-14 105902.jpg",
+      "PackagePath": "staticwebassets\\img.html\\Screenshot 2023-04-14 105902.jpg"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\img.html\\a81d9c3fb3ead644daf62cd33c62a85e.jpg",
+      "PackagePath": "staticwebassets\\img.html\\a81d9c3fb3ead644daf62cd33c62a85e.jpg"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\img.html\\bcfeec75-2196-4183-ad66-02f2ab1279fd.webp",
+      "PackagePath": "staticwebassets\\img.html\\bcfeec75-2196-4183-ad66-02f2ab1279fd.webp"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\img.html\\d07bc43a2852b67373fccfddac598083.jpg",
+      "PackagePath": "staticwebassets\\img.html\\d07bc43a2852b67373fccfddac598083.jpg"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\img.html\\e2c11a3180736bb275526c96bebf49ee.jpg",
+      "PackagePath": "staticwebassets\\img.html\\e2c11a3180736bb275526c96bebf49ee.jpg"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\img.html\\eb1e2c635f96b000cd5121c32e17aa97.jpg",
+      "PackagePath": "staticwebassets\\img.html\\eb1e2c635f96b000cd5121c32e17aa97.jpg"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\img.html\\istockphoto-1339675977-612x612.jpg",
+      "PackagePath": "staticwebassets\\img.html\\istockphoto-1339675977-612x612.jpg"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\lib\\autocomplete.js\\autocomplete.jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\autocomplete.js\\autocomplete.jquery.min.js"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\lib\\bootbox.js\\bootbox.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootbox.js\\bootbox.min.js"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\pdf books\\Adventure Bible Book of Devotions for Early Readers, NIrV. 365 Days of Adventure ( PDFDrive ).pdf",
+      "PackagePath": "staticwebassets\\pdf books\\Adventure Bible Book of Devotions for Early Readers, NIrV. 365 Days of Adventure ( PDFDrive ).pdf"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\pdf books\\Analog Science Fiction and Fact - March 2016 ( PDFDrive ).pdf",
+      "PackagePath": "staticwebassets\\pdf books\\Analog Science Fiction and Fact - March 2016 ( PDFDrive ).pdf"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\pdf books\\Before Atlantis_ 20 Million Years of Human and Pre-Human Cultures ( PDFDrive ).pdf",
+      "PackagePath": "staticwebassets\\pdf books\\Before Atlantis_ 20 Million Years of Human and Pre-Human Cultures ( PDFDrive ).pdf"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\pdf books\\Building with Earth_ Design and Technology of a Sustainable  ( PDFDrive ).pdf",
+      "PackagePath": "staticwebassets\\pdf books\\Building with Earth_ Design and Technology of a Sustainable  ( PDFDrive ).pdf"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\pdf books\\Cannibal Adventure.pdf",
+      "PackagePath": "staticwebassets\\pdf books\\Cannibal Adventure.pdf"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\pdf books\\Dirty Little Secrets of World War II _ Military Information No One Told You About the Greatest, Most Terrible War in History ( PDFDrive ).pdf",
+      "PackagePath": "staticwebassets\\pdf books\\Dirty Little Secrets of World War II _ Military Information No One Told You About the Greatest, Most Terrible War in History ( PDFDrive ).pdf"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\pdf books\\Fantasy Magazine, Issue 2.pdf",
+      "PackagePath": "staticwebassets\\pdf books\\Fantasy Magazine, Issue 2.pdf"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\pdf books\\Germany and the Second World War_ Volume VII_ The Strategic Air War in Europe and the War in the West and East Asia, 1943-1944 5 ( PDFDrive ).pdf",
+      "PackagePath": "staticwebassets\\pdf books\\Germany and the Second World War_ Volume VII_ The Strategic Air War in Europe and the War in the West and East Asia, 1943-1944 5 ( PDFDrive ).pdf"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\pdf books\\Living in the Light_ A guide to personal transformation ( PDFDrive ).pdf",
+      "PackagePath": "staticwebassets\\pdf books\\Living in the Light_ A guide to personal transformation ( PDFDrive ).pdf"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\pdf books\\The Age of Wars of Religion, 1000-1650 [2 volumes]_ An Encyclopedia of Global Warfare and Civilization [Two Volumes] (Greenwood Encyclopedias of Modern World Wars) ( PDFDrive ).pdf",
+      "PackagePath": "staticwebassets\\pdf books\\The Age of Wars of Religion, 1000-1650 [2 volumes]_ An Encyclopedia of Global Warfare and Civilization [Two Volumes] (Greenwood Encyclopedias of Modern World Wars) ( PDFDrive ).pdf"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\pdf books\\The Call of the Wild, White Fan - Jack London.pdf ( PDFDrive ).pdf",
+      "PackagePath": "staticwebassets\\pdf books\\The Call of the Wild, White Fan - Jack London.pdf ( PDFDrive ).pdf"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\pdf books\\The Concise Encyclopedia of World War II  2 volumes  (Greenwood Encyclopedias of Modern World Wars) ( PDFDrive ).pdf",
+      "PackagePath": "staticwebassets\\pdf books\\The Concise Encyclopedia of World War II  2 volumes  (Greenwood Encyclopedias of Modern World Wars) ( PDFDrive ).pdf"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\pdf books\\The Tiger_ A True Story of Vengeance and Survival ( PDFDrive ).pdf",
+      "PackagePath": "staticwebassets\\pdf books\\The Tiger_ A True Story of Vengeance and Survival ( PDFDrive ).pdf"
+    },
+    {
+      "Id": "D:\\Projects Of C#\\BookStoreOnline\\Web\\wwwroot\\pdf books\\The Writer's Idea Book 10th Anniversary Edition_ How to Develop Great Ideas for Fiction, Nonfiction, Poetry, and Screenplays ( PDFDrive ).pdf",
+      "PackagePath": "staticwebassets\\pdf books\\The Writer's Idea Book 10th Anniversary Edition_ How to Develop Great Ideas for Fiction, Nonfiction, Poetry, and Screenplays ( PDFDrive ).pdf"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Web.props",
+      "PackagePath": "build\\Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Web.props",
+      "PackagePath": "buildMultiTargeting\\Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Web.props",
+      "PackagePath": "buildTransitive\\Web.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
